@@ -2,12 +2,6 @@
 
 This chart deploys Postrges, ActiveMQ and the Alfresco repository.
 
-## Deploy
+The repository pod contains all the software/drivers required to connect to ActiveMQ & Postgres.
 
-```bash
-cd helm
-helm dependency update alfresco-content-services
-helm install acs alfresco-content-services -n devops-test
-```
-
-The repository service is available via `NodePort`.
+Once running the repository service is available via `NodePort`. Its web application is available at `http://NodeIp:NodePort/alfresco`.
