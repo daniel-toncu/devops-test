@@ -5,7 +5,7 @@ if [ $(id -u) -eq 0 ]; then
 fi
 
 . {{ config_folder }}/setenv.sh
-export ACTIVEMQ_BASE="{{ activemq_basek }}"
+export ACTIVEMQ_BASE="{{ activemq_base }}"
 export ACTIVEMQ_DATA="{{ activemq_data }}"
 export ACTIVEMQ_TMP="{{ activemq_tmp }}"
 export ACTIVEMQ_USER="{{ username }}"

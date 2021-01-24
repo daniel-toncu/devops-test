@@ -8,8 +8,8 @@ logs_folder: /var/log/alfresco
 utils:
   - sudo
   - unzip
-  - libselinux-python
-  - libsemanage-python
+  - libselinux-python # Not Working on CentOS 8
+  - libsemanage-python # Not Working on CentOS 8
 
 # vars file to keep track of hosts (activemq, repository, share, etc.)
 activemq_host: localhost
