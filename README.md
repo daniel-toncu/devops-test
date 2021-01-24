@@ -29,7 +29,7 @@ The playbook will fail with a couple of different errors, your challenge is to i
 
 ## Kubernetes
 
-The [Helm chart](helm/README.md) installs Postrges, ActiveMQ and the Alfresco repository.
+The [Helm chart](helm/alfresco-content-services/README.md) installs Postrges, ActiveMQ and the Alfresco repository.
 
 To deploy the Helm chart execute the following commands:
 
