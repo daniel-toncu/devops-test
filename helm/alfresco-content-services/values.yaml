@@ -47,7 +47,6 @@ repository:
   extraVolumes: []
 
 database:
-  driver: org.gjt.mm.mysql.Driver
   user: alfresco
   password: alfresco
 
